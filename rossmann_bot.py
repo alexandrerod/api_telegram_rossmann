@@ -19,13 +19,9 @@ token = '6243489326:AAFSHqcB1eXqqkCFyBQa1i0rEzqkw5SjJVU'
 # https://api.telegram.org/bot6243489326:AAFSHqcB1eXqqkCFyBQa1i0rEzqkw5SjJVU/setWebhook?url=https://localhost.run/docs/forever-free/
 
 
+<<<<<<< HEAD
 #webhook render
 # https://api.telegram.org/bot6243489326:AAFSHqcB1eXqqkCFyBQa1i0rEzqkw5SjJVU/setWebhook?url=https://telegram-bot-api-2wzd.onrender.com
-
-
-
-# #send message - bot envia a mensagem
-# https://api.telegram.org/bot6243489326:AAFSHqcB1eXqqkCFyBQa1i0rEzqkw5SjJVU/sendMessage?chat_id=1683057015&text=Hi Alexandre, to de boa!
 
 def send_message( chat_id, text ):
 	url ='https://api.telegram.org/bot{}/'.format(token )
@@ -39,8 +35,10 @@ def send_message( chat_id, text ):
 
 def load_dataset( store_id ):
 	# loading test dataset
+	
 	df10 = pd.read_csv('test.csv')
 	df_store_raw = pd.read_csv('store.csv', low_memory=False)
+
 	
     # merge test and store dataset
 	df_test = pd.merge(df10, df_store_raw, how = 'left', on = 'Store'  )
