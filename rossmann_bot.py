@@ -20,7 +20,8 @@ token = '6243489326:AAFSHqcB1eXqqkCFyBQa1i0rEzqkw5SjJVU'
 
 
 #webhook render
-# https://api.telegram.org/bot6243489326:AAFSHqcB1eXqqkCFyBQa1i0rEzqkw5SjJVU/setWebhook?url=
+# https://api.telegram.org/bot6243489326:AAFSHqcB1eXqqkCFyBQa1i0rEzqkw5SjJVU/setWebhook?url=https://telegram-bot-api-2wzd.onrender.com
+
 
 
 # #send message - bot envia a mensagem
